@@ -9,7 +9,7 @@
 
     @livewireStyles
     </head>
-    <body class="antialiased">
+    <body class="bg-gradient-to-r from-green-dark via-green-mid to-green-light">
         <livewire:show-header />
     @livewireScripts
     </body>
