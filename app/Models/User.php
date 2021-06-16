@@ -20,9 +20,13 @@ class User extends Authenticatable
         'surname',
         'name',
         'email',
-        'address',
         'password',
     ];
+
+    public function addresses()
+    {
+        return $this->hasMany(Address::class);
+    }
 
     /**
      * The attributes that should be hidden for arrays.
