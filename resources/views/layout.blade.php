@@ -10,7 +10,9 @@
     @livewireStyles
     </head>
     <body class="bg-gradient-to-r from-green-dark via-green-mid to-green-light">
-        <livewire:show-header />
+        @include('header')
+        @yield('content')
+
     @livewireScripts
     </body>
 </html>

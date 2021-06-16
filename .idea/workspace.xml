@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9faa4d-a96b-48eb-9686-bfa877547de3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ShowHeader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/show-header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +131,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1p7PPU3ApwjO3rcZg8YHB5ERXie" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -163,7 +168,7 @@
       <updated>1614531132709</updated>
       <workItem from="1614531135013" duration="302000" />
       <workItem from="1623830504857" duration="1510000" />
-      <workItem from="1623832814303" duration="6428000" />
+      <workItem from="1623832814303" duration="9072000" />
     </task>
     <task id="LOCAL-00001" summary="installed livewire">
       <created>1623830897998</created>
@@ -186,17 +191,33 @@
       <option name="project" value="LOCAL" />
       <updated>1623831752572</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed &lt;body&gt; background and styled header">
+      <created>1623842837733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623842837733</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed &lt;body&gt; background and styled header">
+      <created>1623842868734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623842868734</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="installed livewire" />
     <MESSAGE value="installed and set up for tailwindcss" />
     <MESSAGE value="installed livewire | created header component" />
-    <option name="LAST_COMMIT_MESSAGE" value="installed livewire | created header component" />
+    <MESSAGE value="changed &lt;body&gt; background and styled header" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed &lt;body&gt; background and styled header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

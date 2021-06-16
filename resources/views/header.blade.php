@@ -1,5 +1,5 @@
 <div>
-    <div class="relative ">
+    <div class="relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
             <div class="flex justify-between items-center md:justify-start md:space-x-10 pt-4">
                 <div class="-mr-2 -my-2 md:hidden">
@@ -12,7 +12,13 @@
                     </button>
                 </div>
                 <nav class="hidden md:flex space-x-10">
-                    <a href="#" class="text-base font-medium text-yellow-light hover:text-yellow-dark rounded border-b-4 border-yellow-light">
+                    <a href="/" class="text-base font-medium text-yellow-light hover:text-yellow-dark rounded border-b-4 border-yellow-light">
+                        Home
+                    </a>
+                    <svg height="25" width="25">
+                        <circle cx="12.5" cy="12.5" r="2" fill="white" />
+                    </svg>
+                    <a href="#" class="text-base font-medium text-white-light hover:text-yellow-dark">
                         Shop
                     </a>
                     <svg height="25" width="25">
@@ -38,7 +44,7 @@
                     </a>
                 </nav>
                 <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                    <a href="#" class="pr-10">
+                    <a href="login/" class="pr-10">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 svgChangeColor" fill="white" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
