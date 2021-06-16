@@ -13,6 +13,8 @@ class Registration extends Component
     public $city;
     public $state;
     public $postal;
+    public $password;
+    public $repeatPassword;
 
     public function render()
     {
