@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e9faa4d-a96b-48eb-9686-bfa877547de3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/registration.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +187,7 @@
       <workItem from="1623832814303" duration="19990000" />
       <workItem from="1623923743919" duration="990000" />
       <workItem from="1624269139230" duration="300000" />
-      <workItem from="1624349087026" duration="3943000" />
+      <workItem from="1624349087026" duration="5303000" />
     </task>
     <task id="LOCAL-00001" summary="installed livewire">
       <created>1623830897998</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624350472347</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added login function to check credentials">
+      <created>1624353170503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624353170503</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +291,8 @@
     <MESSAGE value="added de language files" />
     <MESSAGE value="changed user-db table so language file can work properly" />
     <MESSAGE value="added error messages to blade" />
-    <option name="LAST_COMMIT_MESSAGE" value="added error messages to blade" />
+    <MESSAGE value="added login function to check credentials" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login function to check credentials" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

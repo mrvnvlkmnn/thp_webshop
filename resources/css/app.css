@@ -7,3 +7,7 @@
 .svgChangeColor:hover{
     fill: #d0993c;
 }
+
+.clickable{
+    cursor: pointer;
+}
