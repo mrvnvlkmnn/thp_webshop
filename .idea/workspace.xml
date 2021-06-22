@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9faa4d-a96b-48eb-9686-bfa877547de3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/de/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/de/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/registration.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +184,7 @@
       <workItem from="1623832814303" duration="19990000" />
       <workItem from="1623923743919" duration="990000" />
       <workItem from="1624269139230" duration="300000" />
-      <workItem from="1624349087026" duration="1103000" />
+      <workItem from="1624349087026" duration="1273000" />
     </task>
     <task id="LOCAL-00001" summary="installed livewire">
       <created>1623830897998</created>
@@ -252,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624349618697</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed user-db table so language file can work properly">
+      <created>1624350239027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624350239027</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +272,8 @@
     <MESSAGE value="created migrations for address table" />
     <MESSAGE value="created Address Model | enabled foreign key on migrations | input data from form with foreign key (user -&gt; address)" />
     <MESSAGE value="added de language files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added de language files" />
+    <MESSAGE value="changed user-db table so language file can work properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed user-db table so language file can work properly" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

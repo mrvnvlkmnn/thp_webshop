@@ -47,11 +47,13 @@
                                     <div class="col-span-6">
                                         <label for="street_address" class="block text-sm font-medium text-gray-700">Street address</label>
                                         <input wire:model="street" type="text" name="street_address" id="street_address" autocomplete="street-address" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('street') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-6 lg:col-span-2">
                                         <label for="city" class="block text-sm font-medium text-gray-700">City</label>
                                         <input wire:model="city" type="text" name="city" id="city" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('city') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3">
@@ -74,11 +76,13 @@
                                             <option value="schlesweigholstein">Schleswig-Holstein</option>
                                             <option value="thueringen">Thüringen</option>
                                         </select>
+                                        @error('state') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3 lg:col-span-2">
                                         <label for="postal_code" class="block text-sm font-medium text-gray-700">ZIP / Postal</label>
                                         <input wire:model="postal" type="text" name="postal_code" id="postal_code" autocomplete="postal-code" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('postal') <span class="error">{{ $message }}</span> @enderror
                                     </div>
                                 </div>
                             </div>
