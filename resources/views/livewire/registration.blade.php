@@ -17,27 +17,31 @@
                                 <div class="grid grid-cols-6 gap-6">
                                     <div class="col-span-6 sm:col-span-3">
                                         <label for="first_name" class="block text-sm font-medium text-gray-700">First Name</label>
-                                        <input wire:model="surname" type="text" name="first_name" id="first_name" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-                                        @error('surname') <span class="error">{{ $message }}</span> @enderror
+                                        <input wire:model="first_name" type="text" name="first_name" id="first_name" autocomplete="given-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('first_name') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3">
                                         <label for="last_name" class="block text-sm font-medium text-gray-700">Last name</label>
-                                        <input wire:model="name" type="text" name="last_name" id="last_name" autocomplete="family-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        <input wire:model="last_name" type="text" name="last_name" id="last_name" autocomplete="family-name" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('last_name') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-4">
                                         <label for="email_address" class="block text-sm font-medium text-gray-700">Email address</label>
                                         <input wire:model="email" type="text" name="email_address" id="email_address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('email') <span class="error">{{ $message }}</span> @enderror
                                     </div>
                                     <div class="col-span-6 sm:col-span-3">
                                         <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
                                         <input wire:model="password" type="password" name="password" id="password" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('password') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3">
-                                        <label for="password_confirm" class="block text-sm font-medium text-gray-700">Password repeat</label>
-                                        <input wire:model="password_confirm" type="password" name="password_confirm" id="password_confirm"  class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        <label for="password_confirmation" class="block text-sm font-medium text-gray-700">Password repeat</label>
+                                        <input wire:model="password_confirmation" type="password" name="password_confirmation" id="password_confirmation"  class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                                        @error('password_confirmation') <span class="error">{{ $message }}</span> @enderror
                                     </div>
 
                                     <div class="col-span-6">
