@@ -38,7 +38,7 @@ class Registration extends Component
         if($this->validate()){
             $this->addUser();
         }else{
-
+            $this->addError('surnameGer', 'Gebe bitte einen Namen ein');
         }
 
     }
