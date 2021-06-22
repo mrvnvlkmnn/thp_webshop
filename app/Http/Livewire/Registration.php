@@ -3,10 +3,12 @@
 namespace App\Http\Livewire;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Livewire\Component;
 use Illuminate\Support\Facades\Hash;
+use phpDocumentor\Reflection\Types\Boolean;
 
 class Registration extends Component
 {
@@ -37,6 +39,9 @@ class Registration extends Component
     {
         if($this->validate()){
             $this->addUser();
+            $this->login();
+
+            return redirect(route('home'));
         }
     }
 
@@ -54,6 +59,16 @@ class Registration extends Component
             'state' => $this->state,
             'postal' => $this->postal,
         ]);
+    }
+
+    protected function login(): bool
+    {
+        $credentials = [
+          'email' => $this->email,
+          'password' => $this->password,
+        ];
+
+        return Auth::attempt($credentials);
     }
 
     public function render()
