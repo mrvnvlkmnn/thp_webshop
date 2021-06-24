@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9faa4d-a96b-48eb-9686-bfa877547de3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/logout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/logout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -186,7 +183,9 @@
       <workItem from="1623832814303" duration="19990000" />
       <workItem from="1623923743919" duration="990000" />
       <workItem from="1624269139230" duration="300000" />
-      <workItem from="1624349087026" duration="9150000" />
+      <workItem from="1624349087026" duration="10709000" />
+      <workItem from="1624428368550" duration="681000" />
+      <workItem from="1624519775377" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="installed livewire">
       <created>1623830897998</created>
@@ -279,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624354510837</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added shop page">
+      <created>1624375062342</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1624375062342</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +305,8 @@
     <MESSAGE value="added error messages to blade" />
     <MESSAGE value="added login function to check credentials" />
     <MESSAGE value="addded login and logout functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="addded login and logout functionality" />
+    <MESSAGE value="added shop page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added shop page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
