@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->foreignId('categories_id')->constrained();
             $table->float('list_price');
             $table->integer('quantity');
+            $table->string('slug');
             $table->timestamps();
         });
     }

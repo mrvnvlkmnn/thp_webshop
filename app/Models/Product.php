@@ -18,5 +18,10 @@ class Product extends Model
         'product_name',
         'list_price',
         'quantity',
+        'slug',
     ];
+
+    public function categories(){
+        return $this->belongsTo(Categories::class);
+    }
 }

@@ -1,4 +1,22 @@
 <div>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                @foreach($products as $product)
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-white-light text-xs tracking-widest title-font mb-1">{{ $product->categories_id[0]->category_name }}</h3>
+                        <h2 class="text-white-light hover:text-yellow-light title-font text-lg font-medium"><a href="/shop/{{ $product->slug }}">{{ $product->product_name }}</a></h2>
+                        <p class="mt-1 text-yellow-light">{{ $product->list_price }}€</p>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
     <div class="rounded bg-white-light relative max-w-7xl mx-auto px-4 sm:px-6 mt-20">
         <div class="mt-10 sm:mt-0 py-5">
             <div class="md:grid md:grid-cols-3 md:gap-6">
