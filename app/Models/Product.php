@@ -17,10 +17,6 @@ class Product extends Model
     protected $fillable = [
         'product_name',
         'list_price',
+        'quantity',
     ];
-
-    public function stocks()
-    {
-        return $this->hasMany(Stocks::class);
-    }
 }

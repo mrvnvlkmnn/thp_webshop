@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9faa4d-a96b-48eb-9686-bfa877547de3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ShopIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ShopIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Stocks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_24_073950_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_06_24_073950_create_products_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_06_24_074021_create_stocks_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/shop-index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/shop-index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +191,7 @@
       <workItem from="1624269139230" duration="300000" />
       <workItem from="1624349087026" duration="10709000" />
       <workItem from="1624428368550" duration="681000" />
-      <workItem from="1624519775377" duration="1643000" />
+      <workItem from="1624519775377" duration="4446000" />
     </task>
     <task id="LOCAL-00001" summary="installed livewire">
       <created>1623830897998</created>
@@ -285,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624375062342</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="created products model with categories and stocks&#10;added migrations and relations for those tables">
+      <created>1624521661424</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624521661424</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +319,8 @@
     <MESSAGE value="added login function to check credentials" />
     <MESSAGE value="addded login and logout functionality" />
     <MESSAGE value="added shop page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added shop page" />
+    <MESSAGE value="created products model with categories and stocks&#10;added migrations and relations for those tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="created products model with categories and stocks&#10;added migrations and relations for those tables" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
