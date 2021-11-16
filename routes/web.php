@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +24,8 @@ Route::get('/login', function () {
 
 Route::get('/shop', function () {
     return view('shop');
+});
+
+Route::get('/shop/{itemID}', function (Request $request, $itemID){
+   return view('shop')->with($itemID);
 });
