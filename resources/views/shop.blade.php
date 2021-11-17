@@ -1,4 +1,8 @@
 @extends('layout')
 @section('content')
-    <livewire:shop-index />
+    @if($livewireInput == "index")
+        <livewire:shop-index />
+    @elseif($livewireInput == "overview")
+        <livewire:product-overview :itemID="$itemID">
+    @endif
 @endsection

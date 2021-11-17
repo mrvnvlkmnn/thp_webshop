@@ -23,9 +23,10 @@ Route::get('/login', function () {
 });
 
 Route::get('/shop', function () {
-    return view('shop');
+    return view('shop', ['livewireInput' => 'index', 'itemID' => null]);
 });
 
-Route::get('/shop/{itemID}', function (Request $request, $itemID){
-   return view('shop')->with($itemID);
+Route::get('/shop/{itemID}', function ($itemID){
+
+   return view('shop', ['livewireInput' => 'overview', 'itemID' => $itemID]);
 });
