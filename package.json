@@ -18,6 +18,7 @@
         "tailwindcss": "^2.1.4"
     },
     "dependencies": {
+        "alpinejs": "^3.5.1",
         "livewire": "^0.6.1"
     }
 }

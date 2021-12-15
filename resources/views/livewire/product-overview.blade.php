@@ -4,7 +4,7 @@
             <ol role="list" class="max-w-2xl mx-auto px-4 flex items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
                 <li>
                     <div class="flex items-center">
-                        <a href="#" class="mr-2 text-sm font-medium text-gray-900">
+                        <a href="/shop/" class="mr-2 text-sm font-medium text-gray-900">
                             Shop
                         </a>
                         <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="w-4 h-5 text-gray-300">
@@ -15,7 +15,7 @@
 
                 <li>
                     <div class="flex items-center">
-                        <a href="#" class="mr-2 text-sm font-medium text-gray-900">
+                        <a href="#" class="mr-2 text-sm font-medium text-yellow-light">
                             {{ $product->product_name }}
                         </a>
                     </div>
@@ -93,7 +93,7 @@
                     </div>
                 </div>
 
-                <form class="mt-10">
+                <div class="mt-10">
                     <!-- Colors -->
                     <div>
                         <h3 class="text-sm text-gray-900 font-medium">Color</h3>
@@ -269,8 +269,8 @@
                         </fieldset>
                     </div>
 
-                    <button type="submit" class="mt-10 w-full bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add to bag</button>
-                </form>
+                    <button wire:click="test" class="mt-10 w-full bg-yellow-light border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white-light hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Add to bag</button>
+                </div>
             </div>
 
             <div class="py-10 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">

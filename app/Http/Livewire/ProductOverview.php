@@ -15,6 +15,11 @@ class ProductOverview extends Component
         $this->itemID = $itemID;
     }
 
+    public function test()
+    {
+        dd("test");
+    }
+
     public function getProduct()
     {
 
